@@ -17,7 +17,7 @@
         <li
             class="list-group-item"
             v-for="(contact, index) in contacts"
-     :key="contact._id"
+            :key="contact._id"
             :class="{ active: index === activeIndex }"
             @click="updateActiveIndex(index)"
         >
